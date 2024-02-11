@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background: linear-gradient(100deg,rgba(137, 43, 226, 0.514), blue, blueviolet);
+    color: blueviolet ;
+    width: 40%;
+    margin: 3rem auto 0px ;
+    padding: 40px 10px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.main input{
+    width: 40%;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    padding-left: 20px;
+    border:0px ;
+    font-size: 20px;
+    margin-right: 1rem;
+}
+.main #searchBtn{
+    width: 50px;
+    background-color: rgba(71, 8, 131, 0.473);
+    border: 1px solid rgba(19, 1, 1, 0.418);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.main #searchBtn i{
+    color: black;
+    font-size: 21px;
+}
+.lastSection{
+    display: flex;
+    justify-content: space-around;
+}
+.wheather i{
+    margin-top: 20px;
+    font-size: 100px;
+}
+.wheather h1{
+    font-size: 30px;
+}
+.wheather h2{
+    margin-top: 10px;
+    font-size: 27px;
+}
+.lastSection i{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.lastSection p{
+    font-size: 20px;
+    margin: 5px 0px;
+}
+
+@media (max-width:500px) {
+    .main{
+    margin: 3rem auto 0px ;
+    padding: 20px 5px;
+    }
+    .main input{
+        font-size: 10px;
+        margin:0px;
+        padding: 5px 10px;
+    }
+    .main #searchBtn{
+        width: 25px;
+        padding: 2px 4px 4px 6px;
+    }
+    .main #searchBtn i{
+        font-size: 8px;
+    }
+    .wheather i{
+        margin-top: 10px;
+        font-size: 50px;
+    }
+    .lastSection{
+        display: block;
+    }
+    .wheather h1{
+        font-size: 20px;
+    }
+    .wheather h2{
+        font-size: 17px;
+    }
+    .lastSection i{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .lastSection p{
+        font-size: 12px;
+    }
+    
+    
+}
