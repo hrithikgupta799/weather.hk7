@@ -60,8 +60,8 @@ body{
 
 @media (max-width:500px) {
     .main{
-        width: 80%;
-    margin: 3rem auto 0px ;
+    width: 80%;
+    margin: 3rem auto;
     padding: 20px 5px;
     
     }
